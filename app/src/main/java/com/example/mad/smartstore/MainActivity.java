@@ -6,7 +6,6 @@ import android.os.Bundle;
 import com.example.mad.smartstore.db_store.Conexion;
 
 public class MainActivity extends AppCompatActivity {
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
