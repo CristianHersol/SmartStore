@@ -9,7 +9,7 @@ public class Conexion extends SQLiteOpenHelper {
     //Creo las tablas de la base de datos
 
     final String CREAR_TABLA_PROVEEDORES="create table Proveedor(" +
-            "ID_Proveedor int auto_increment primary key," +
+            "ID_Proveedor int primary key autoincrement ," +
             "Nombre_Proveedor text," +
             "telefono text" +
             ");";
