@@ -1,5 +1,5 @@
 package com.example.mad.smartstore.db_store;
-
+//Clase Proveedor con sus atributos, constructor, getters y sets
 public class Proveedor {
     private Integer ID_Proveedor;
     private String Nombre_Proveedor;

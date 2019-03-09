@@ -1,6 +1,6 @@
 package com.example.mad.smartstore.db_store;
-
-public class productos {
+//Clase Producto con sus atributos, constructor, getters y sets
+public class Productos {
     private Integer ID_Producto;
     private String Nombre_Producto;
     private Double Costo_Compra;
@@ -9,7 +9,7 @@ public class productos {
     private Integer Veces_Vendido;
     private Integer ID_Proveedor;
 
-    public productos(Integer ID_Producto, String nombre_Producto, Double costo_Compra, Double costo_Venta, Integer existencia, Integer veces_Vendido, Integer ID_Proveedor) {
+    public Productos(Integer ID_Producto, String nombre_Producto, Double costo_Compra, Double costo_Venta, Integer existencia, Integer veces_Vendido, Integer ID_Proveedor) {
         this.ID_Producto = ID_Producto;
         this.Nombre_Producto = nombre_Producto;
         this.Costo_Compra = costo_Compra;

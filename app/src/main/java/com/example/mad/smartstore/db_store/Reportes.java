@@ -1,7 +1,7 @@
 package com.example.mad.smartstore.db_store;
 
 import java.util.Date;
-
+//Clase Reportes con sus atributos, constructor, getters y sets
 public class Reportes {
     private Integer ID_Reporte;
     private Double Total;
